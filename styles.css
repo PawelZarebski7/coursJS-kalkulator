@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 2;
+    text-align: center;
+    cursor: pointer;
+    background: #607d8b;
+    border: none;
+    color: white;
+    transition-duration: 1.5s;
+}
+
+.button:hover {
+    background: transparent;
+    border: 1px solid white;
+}
+
+.textview {
+    width: 200px;
+    margin: 0;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    color: #607d8b;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg {
+    background: linear-gradient(to right, #e91e63, #3f51b5);
+    height: 100vh;
+}
